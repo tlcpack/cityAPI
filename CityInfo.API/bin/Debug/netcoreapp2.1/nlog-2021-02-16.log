@@ -1,0 +1,8 @@
+2021-02-16 13:45:41.8413|INFO|CityInfo.API.Program|Initializing app...
+2021-02-16 13:45:43.8145|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\tcooke\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-16 13:45:44.5712|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2021-02-16 13:45:44.5712|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2021-02-16 13:45:44.6295|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 59.7779ms 200 
+2021-02-16 13:45:44.7851|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 217.4231ms 404 text/plain
+2021-02-16 13:45:44.9608|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2021-02-16 13:45:44.9647|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.2642ms 404 text/plain
