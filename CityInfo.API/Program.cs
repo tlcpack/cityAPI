@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore;
+﻿using CityInfo.API.Contexts;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Web;
 using System;
@@ -22,7 +25,22 @@ namespace CityInfo.API
             try
             {
                 logger.Info("Initializing app...");
-                CreateWebHostBuilder(args).Build().Run();
+                var host = CreateWebHostBuilder(args).Build();
+
+                using (var scope = host.Services.CreateScope())
+                {
+                    try
+                    {
+                        var context = scope.ServiceProvider.GetService<CityInfoContext>();
+
+                        context.Database.EnsureDeleted();
+                        context.Database.Migrate();
+                    }
+                    catch (Exception ex)
+                    {
+                        logger.Error(ex, "Error occurred");
+                    }
+                }
             }
             catch (Exception ex)
             {
