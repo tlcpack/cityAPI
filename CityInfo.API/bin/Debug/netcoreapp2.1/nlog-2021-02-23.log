@@ -66,3 +66,52 @@ CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
 2021-02-23 13:31:13.6717|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
 VALUES (N'20210223182951_CityInfoDBInitialMigration', N'2.1.14-servicing-32113');
+2021-02-23 14:38:24.5164|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:38:30.7707|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:38:31.3256|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-23 14:38:31.4977|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [master] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-23 14:38:31.4977|ERROR|CityInfo.API.Program|Error occurred
+2021-02-23 14:44:01.8939|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:44:04.0049|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-23 14:44:04.2877|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [master] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-23 14:44:04.3390|ERROR|CityInfo.API.Program|Error occurred
+2021-02-23 14:44:09.1913|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:44:09.7434|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-23 14:44:09.8899|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [master] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-23 14:44:09.8899|ERROR|CityInfo.API.Program|Error occurred
+2021-02-23 14:44:14.7068|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:44:15.2613|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-23 14:44:15.4047|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [master] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-23 14:44:15.4083|ERROR|CityInfo.API.Program|Error occurred
+2021-02-23 14:44:29.6447|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:44:31.7292|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-23 14:44:32.0354|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [master] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-23 14:44:32.0717|ERROR|CityInfo.API.Program|Error occurred
+2021-02-23 14:44:36.8644|INFO|CityInfo.API.Program|Initializing app...
+2021-02-23 14:44:37.3997|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-23 14:44:37.5404|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [master] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-23 14:44:37.5404|ERROR|CityInfo.API.Program|Error occurred

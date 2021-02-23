@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CityInfo.API.Services
 {
-    public interface ICityInfoRepositoty
+    public interface ICityInfoRepository
     {
         IQueryable<City> GetCities();
         City GetCity(int cityId, bool includePointsOfInterest);
