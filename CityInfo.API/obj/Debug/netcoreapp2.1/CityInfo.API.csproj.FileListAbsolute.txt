@@ -14,3 +14,5 @@ C:\Users\tcooke\Documents\_play\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\Ci
 C:\Users\tcooke\Documents\_play\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
 C:\Users\tcooke\Documents\_play\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.genruntimeconfig.cache
 C:\Users\tcooke\Documents\_play\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\tcooke\Documents\_play\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\tcooke\Documents\_play\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\appsettings.Production.json
